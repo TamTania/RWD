@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background: #e1e0e2;
+	color: #b1b0b2;	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 767px) {
+	
+	.tablet{
+		display: none;
+	}
+
+	.desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.mobile {
+		display: none;
+	}
+
+	.desktop {
+		display: none;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	.mobile {
+		display: none;
+	}
+
+	.tablet {
+		display: none;
+	}
+	
+}
+
+
+
