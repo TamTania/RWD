@@ -11,21 +11,21 @@
 
 @media (max-width: 767px){
   .header {
-    margin: 1%;
+    margin: 15px;
     height: 20vh;
     width: 100%;
     background: #42bcf4;
   }
 
   .navigation {
-    margin: 1%;
+    margin: 15px;
     height: 20vh;
     width: 100%;
     background: #23752e;
   }
 
   .content {
-    margin: 1%;
+    margin: 15px;
     height: 53vh;
     width: 100%;
     background: #d11940;
@@ -37,30 +37,30 @@
 }
 @media (min-width:768px) and (max-width: 1023px) {
   .header {
-    margin: 1%;
+    margin: 15px;
     height: 14vh;
     width: 100%;
     background: #42bcf4;
   }
 
   .navigation {
-    margin: 1%;
+    margin: 15px;
     height: 25vh;
     width: 100%;
     background: #23752e;
   }
 
   .content {
-    margin: 1%;
+    margin: 15px;
     height: 52vh;
-    width: 61%;
+    width: 58%;
     background: #d11940;
   }
 
   .advertising {
-    margin: 1%;
+    margin: 15px;
     height: 52vh;
-    width: 35%;
+    width: 33%;
     background: #f28b1d;
   }
 }
@@ -68,28 +68,28 @@
  /*Desktop*/
 @media (min-width: 1024px) {
   .header {
-    margin: 1%;
+    margin: 15px;
     height: 14vh;
     width: 100%;
     background: #42bcf4;
   }
 
   .navigation {
-    margin: 1%;
+    margin: 15px;
     height: 75vh;
-    width: 25%;
+    width: 26%;
     background: #23752e;
   }
 
   .content {
-    margin: 1%;
+    margin: 15px;
     height: 75vh;
-    width: 51%;
+    width: 47%;
     background: #d11940;
   }
 
   .advertising {
-    margin: 1%;
+    margin: 15px;
     height: 75vh;
     width: 18%;
     background: #f28b1d;
