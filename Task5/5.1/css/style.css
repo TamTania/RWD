@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.checkout {
+		width: auto;
+		height: auto;
+
+		border: 2px solid #8e8f91;
+    	border-radius: 18px;
+    	background: #FAFAFA;
+}
+
+.button {
+	margin: 2px;
+	padding: 10px 15px 10px 15px;
+	background: linear-gradient(180deg , #ededed, #e2e2e2 45%, #d1d1d1 50%, #bababa);
+
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #8e8f91;
+	font-weight: bold;
+	text-shadow: 0 0 5px #ededed;
+
+	border: 5px solid #d1d1d1;
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 2px 1px #adadad;
+
+}								

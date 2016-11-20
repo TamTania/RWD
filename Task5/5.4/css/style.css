@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	height: 100%;
+}
+
+.coub {
+    width: 50px;
+    height: 50px;
+    background-color: #f99f9f;
+    position: relative;
+    animation-name: coub;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes coub {
+    0%   {background-color:#f99f9f; left:0px; top:0px;}
+    25%  {background-color:/*#fffaa0*/#ffffff; left:400px; top:0px;}
+    50%  {background-color:#a2f998; left:400px; top:400px;}
+    75%  {background-color:/*#91cdff*/#ffffff; left:0px; top:400px;}
+    100% {background-color:#f99f9f; left:0px; top:0px;}
+}
+
+.coub-1 {
+    width: 50px;
+    height: 50px;
+    background-color: #f99f9f;
+    position: relative;
+    animation-name: coub-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes coub-1 {
+    0%   {background-color:/*#f99f9f*/#ffffff; left:50px; top:0px;}
+    25%  {background-color:#fffaa0; left:350px; top:0px;}
+    50%  {background-color:/*#a2f998*/#ffffff; left:350px; top:300px;}
+    75%  {background-color:#91cdff; left:50px; top:300px;}
+    100% {background-color:/*#f99f9f*/#ffffff; left:50px; top:0px;}
+}
+
+.coub-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #f99f9f;
+    position: relative;
+    animation-name: coub-2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes coub-2 {
+    0%   {background-color:#f99f9f; left:100px; top:0px;}
+    25%  {background-color:/*#fffaa0*/#ffffff; left:300px; top:0px;}
+    50%  {background-color:#a2f998; left:300px; top:200px;}
+    75%  {background-color:/*#91cdff*/#ffffff; left:100px; top:200px;}
+    100% {background-color:#f99f9f; left:100px; top:0px;}
+}
+
+.coub-3 {
+    width: 50px;
+    height: 50px;
+    background-color: #f99f9f;
+    position: relative;
+    animation-name: coub-3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes coub-3 {
+    0%   {background-color:/*#f99f9f*/#ffffff; left:150px; top:0px;}
+    25%  {background-color:#fffaa0; left:250px; top:0px;}
+    50%  {background-color:/*#a2f998*/#ffffff; left:250px; top:100px;}
+    75%  {background-color:#91cdff; left:150px; top:100px;}
+    100% {background-color:/*#f99f9f*/#ffffff; left:150px; top:0px;}
+}

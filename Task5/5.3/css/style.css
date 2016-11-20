@@ -1,0 +1,55 @@
+.container-1 {
+	background-color: #c0d5f7; 
+	padding: 1vh;
+	margin: 1vh;
+}
+
+[role=navigation] > span a {
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+	font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+	color: #ffffff;
+
+}	
+
+[role=navigation] > span a:not([href^=mailto]) {
+	color: #021e49;
+}
+
+.container-2 {
+	background-color: #e1f7c0; 
+	padding: 1vh;
+	margin: 1vh;
+}
+
+.content {
+	font-size: 20px;
+	color: #abafa8;
+}
+
+.content a {
+	color: black;
+}
+
+div div a + p + p {
+	font-style: italic;
+	font-size: 25px;
+}
+
+.container-3 {
+	background-color: #f9f9b1; 
+	padding: 1vh;
+	margin: 1vh;
+}
+
+.section {
+	color: #266d03;
+}
+
+div div p:nth-child(3) {
+	font-weight: bold;
+	font-style: italic;
+}
