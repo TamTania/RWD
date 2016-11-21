@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-a {
+.icon-logo:after {
     width: 75vh;
     height: 22vh;
     content: url('../img/logo.png');
