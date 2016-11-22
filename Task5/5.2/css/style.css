@@ -9,8 +9,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.icon-logo:after {
-    width: 75vh;
-    height: 22vh;
+.icon-logo:before {
     content: url('../img/logo.png');
 }

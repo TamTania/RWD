@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header, .title, .main, .footer {
+	padding-top: 15px;
+}
+.logo {
+	background: #38c8fe;
+	height: 15vh;
+}
+.menu {
+	 background: #ffaf47;
+	 height: 15vh;
+}
+.paragraf
+{
+	background-color: #ff7747;
+	height: 55vh;
+}
+.content
+{
+	background: #ffd647;
+	height: 30vh;
+}
+.advertising
+{
+	background: #fdc1ff;
+	height: 15vh;
+}
